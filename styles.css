@@ -1,0 +1,151 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.7;
+}
+
+/* 가운데에 있는 전체 페이지 */
+.page {
+  width: 92%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* 각각의 장소 영역 */
+.panel {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+}
+
+/* 이미지 */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 링크 */
+a {
+  color: inherit;
+}
+
+/* 지도 및 자세히 보기 버튼 */
+.action {
+  display: inline-block;
+  padding: 0.7em 1em;
+  border: 2px solid currentColor;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* 마우스를 올렸을 때 */
+a:hover {
+  text-decoration: underline;
+}
+
+/* 키보드로 선택했을 때 */
+a:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 4px;
+}
+
+
+/* =========================
+   메인 페이지
+   ========================= */
+
+.page-home {
+  background-color: #ffffff;
+  color: #17223b;
+}
+
+.page-home h1 {
+  font-size: 2.6rem;
+}
+
+.page-home .panel {
+  border-bottom: 2px solid #17223b;
+}
+
+
+/* =========================
+   장소 1 : 학교정문
+   ========================= */
+
+.page-school {
+  background-color: #eef4ff;
+  color: #263b5e;
+  font-family: serif;
+}
+
+.page-school .panel {
+  border: 1px solid #6d8bb5;
+}
+
+
+/* =========================
+   장소 2 : 식당
+   ========================= */
+
+.page-restaurant {
+  background-color: #fff3e6;
+  color: #633d24;
+}
+
+.page-restaurant .panel {
+  background-color: white;
+  border-radius: 24px;
+}
+
+
+/* =========================
+   장소 3 : 운동장
+   ========================= */
+
+.page-playground {
+  background-color: #eaf7ee;
+  color: #194b35;
+}
+
+.page-playground .panel {
+  border-left: 5px solid #4caf50;
+}
+
+.page-playground h1 {
+  color: #287a45;
+}
+
+
+/* =========================
+   모바일 화면
+   ========================= */
+
+@media (max-width: 600px) {
+
+  .page {
+    width: 94%;
+    padding: 1rem 0;
+  }
+
+  .panel {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .page h1 {
+    font-size: 1.8rem;
+  }
+
+  .action {
+    display: block;
+    text-align: center;
+    padding: 1em;
+  }
+}
+
