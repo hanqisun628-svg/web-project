@@ -18,7 +18,7 @@
 
 ## 3주차: 네 페이지, 네 가지 분위기
 
-- GitHub Pages URL:
+- GitHub Pages URL:https://hanqisun628-svg.github.io/web-project/
 
 ### 페이지별 스타일
 - 프론트페이지: 세 장소를 한눈에 볼 수 있도록 깔끔하고 단순한 분위기로 구성했습니다. `page-home` 클래스와 흰색 배경, 구분선을 적용했습니다.
